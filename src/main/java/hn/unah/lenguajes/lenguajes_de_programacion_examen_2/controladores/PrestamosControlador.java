@@ -18,10 +18,9 @@ public class PrestamosControlador {
     private PrestamosServicio prestamosServicio;
 
     @PostMapping("/prestamos/nuevo/{dni}")
-    public Prestamos nuevPrestamos(@RequestBody String entity) {
-        //TODO: process POST request
-        
-        return entity;
+    public Prestamos nuevoPrestamos(@PathVariable(name="dni") String dni, 
+    @RequestBody Prestamos prestamo) {
+        return this.prestamosServicio.crearNuevoPrestamos(prestamo);        
     }
     
 }
