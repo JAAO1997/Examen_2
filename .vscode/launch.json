@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LenguajesDeProgramacionExamen2Application<lenguajes_de_programacion_examen_2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "hn.unah.lenguajes.lenguajes_de_programacion_examen_2.LenguajesDeProgramacionExamen2Application",
+            "projectName": "lenguajes_de_programacion_examen_2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
